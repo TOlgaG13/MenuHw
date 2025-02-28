@@ -25,7 +25,7 @@ public class DishesDaoTest {
         em = emf.createEntityManager();
         dishesDAO = new DishesDAO();
 
-        // Создание объекта Dishes для теста
+
         EntityTransaction transaction = em.getTransaction();
         transaction.begin();
         Dishes dish1 = new Dishes("Pasta", 12.99, 350.0, false);
